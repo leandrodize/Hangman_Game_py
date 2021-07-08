@@ -32,10 +32,16 @@ def run():
         os.system("cls")
         fiseewords = pyfiglet.figlet_format("LIST WORDS:")
         print(fiseewords)
+
     if option == 4:
         os.system("cls")
         fiaddwords = pyfiglet.figlet_format("ADD WORD")
         print(fiaddwords)
+        with open ("./words.txt","a",encoding="utf-8") as aw:
+            newword = str(input("WRITE HERE NEW WORD:"))
+            newword = newword.lower().strip()
+            aw.write("\n")
+            aw.write(newword)
     if option == 5:
         os.system("cls")
         fiexitgame = pyfiglet.figlet_format("EXIT GAME")
