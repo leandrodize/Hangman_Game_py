@@ -28,6 +28,9 @@ def run():
         os.system("cls")
         fiinstructions = pyfiglet.figlet_format("INSTRUCTIONS")
         print(fiinstructions)
+        with open ("./instructions.txt","r",encoding="utf-8") as i:
+            for line in i:
+                print(line)
     if option == 3:
         os.system("cls")
         fiseewords = pyfiglet.figlet_format("LIST WORDS:")
@@ -35,7 +38,6 @@ def run():
         with open ("./words.txt","r",encoding="utf-8") as lw:
             for line in lw:
                 print(line)
-
     if option == 4:
         os.system("cls")
         fiaddwords = pyfiglet.figlet_format("ADD WORD")
