@@ -35,10 +35,12 @@ def run():
     if option == 4:
         os.system("cls")
         fiaddwords = pyfiglet.figlet_format("ADD WORD")
-
-
-
-
+        print(fiaddwords)
+    if option == 5:
+        os.system("cls")
+        fiexitgame = pyfiglet.figlet_format("EXIT GAME")
+        print(fiexitgame)
+        exit()
 
 
 
