@@ -1,1 +1,5 @@
+REQUIREMENTS:
+PIP = pip install pyfiglet
+NOTE: USED FOR GAME FONTS
+
 pyfiglet==0.8.post1
