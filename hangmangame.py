@@ -134,7 +134,7 @@ def run():
                     os.system("cls")
                     break
             else:
-                fielse = pyfiglet.figlet_format("GAME OVER")
+                fielse = pyfiglet.figlet_format("GAME OVER GAME OVER GAME OVER GAME OVER GAME OVER")
                 print(fielse)
                 time.sleep(4)
                 os.system("cls")
