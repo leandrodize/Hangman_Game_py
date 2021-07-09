@@ -1,7 +1,10 @@
-LAS INTRUCCIONES SON LAS SIGUIENTES:
-PRIMERA INTRUCCIONES
-SEGUNDA INTRUCCIONES
-TERCERA
-CUARTA
 
-RESPETALAS Y CONTINUA JUGANDO
+The instructions for the Hangman game are as follows:
+
+1) enter the start game option
+2) when you start the game you must enter only 1 letter
+3) when you start you have 6 lives
+4) for each error 1 life is subtracted
+
+NOTE: THE WORDS ARE 100% RANDOM, YOU HAVE TO GUESS THEM
+OBSERVE THE RULES AND ENJOY THE GAME OF THE HANGMAN!
